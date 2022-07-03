@@ -1,0 +1,15 @@
+extends ../layout
+
+block content
+  h1 Sign Up 
+    
+    form(action="/login" ,method="post")
+         
+        .form-group 
+            label(for="email") Email
+            Input#name(type="text", class="form-control",name="name" value="syedzaynraza@gmail.com")
+        
+        .form-group 
+            label(for="name" ) Passwords
+            Input#name(type="text, class="form-control",name="price" value="pakistan123")
+        .input(type="submit",class="btn btn-info" value="Register")
